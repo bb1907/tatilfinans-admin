@@ -7,15 +7,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
+    minify: 'terser',
   },
 });
-```
-
-Kaydetmek için: **Ctrl+O** → Enter → **Ctrl+X**
-
-Sonra GitHub'a push edin:
-```
-git add .
-git commit -m "fix: remove terser"
-git push
-
